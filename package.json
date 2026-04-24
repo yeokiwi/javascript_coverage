@@ -1,0 +1,39 @@
+{
+  "name": "jscov",
+  "version": "0.1.0",
+  "description": "Statement, decision, and MC/DC coverage for JavaScript, TypeScript, and JSX",
+  "bin": {
+    "jscov": "./bin/jscov.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "coverage",
+    "mcdc",
+    "mc/dc",
+    "statement",
+    "decision",
+    "branch",
+    "istanbul",
+    "typescript",
+    "jsx"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/generator": "^7.23.0",
+    "@babel/parser": "^7.23.0",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@babel/traverse": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "babel-plugin-istanbul": "^8.0.0",
+    "istanbul-lib-coverage": "^3.2.2",
+    "istanbul-lib-instrument": "^6.0.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+coverage/
+.cov-cache/
+*.log
+.DS_Store
