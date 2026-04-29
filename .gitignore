@@ -1,5 +1,5 @@
 node_modules/
-coverage/
+/coverage/
 .cov-cache/
 *.log
 .DS_Store
